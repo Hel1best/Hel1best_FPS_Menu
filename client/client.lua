@@ -36,7 +36,7 @@ AddEventHandler('Hel1best:fps4', function()
   SetTimecycleModifier()
   ClearTimecycleModifier()
   ClearExtraTimecycleModifier()
-  lib.notify({title = '',description = 'Resetedt to default',type = 'success'})
+  lib.notify({title = '',description = 'Reseted to default',type = 'success'})
 end)
 
 
@@ -50,7 +50,7 @@ lib.registerContext({
       {
           title = 'FPS Boost',
           description = 'Helps best with boosting fps',
-          icon = 'far fa-newspaper',
+          icon = 'fas fa-keyboard',
           event = 'Hel1best:fps1',
       },
       {
